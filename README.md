@@ -1,26 +1,37 @@
 Customer Behavior Analysis (Power BI)
 📌 Project Overview
-This is my second project as a Data Analytics student. The goal of this project was to analyze 10,000 rows of customer data to understand shopping habits and business performance. I used a Dark Mode design to create a modern, professional-looking dashboard.
+This is my second project as a Data Analytics student. I developed this interactive Dark Mode dashboard to analyze a dataset of 10,000 customers. The goal was to move beyond simple sales tracking and explore customer behavior patterns, such as how engagement time relates to spending.
 
-📊 Business Insights (What I Discovered)
-Engagement Patterns: I used a Scatter Plot to show that customers who spend more time on the site (High Session Time) don't always spend more money, helping identify where we can improve sales.
+📊 Key Business Insights
+Behavioral Mapping: I created a Scatter Plot to visualize the relationship between Session Time and Purchase Amount. This helps identify "high-intent" shoppers vs. "window shoppers."
 
-Loyalty Tiers: I analyzed our customer base across four levels: Standard, Silver, Gold, and Platinum.
+Loyalty Segmentation: I analyzed the customer base across Membership Tiers (Standard, Silver, Gold, Platinum) to see which group drives the most value.
 
-Demographics: I visualized the age and gender distribution to show exactly who our "Typical Customer" is.
+Demographic Profiling: I visualized Age and Gender data to understand the primary audience for the brand.
 
-Sales Trends: I tracked revenue from 2024 to 2025 to see if the business is growing or shrinking.
+Revenue Trends: I tracked performance from 2024 to 2025, identifying key periods of growth and decline.
 
-🛠️ Skills & Tools
-Power BI: Data visualization, UI design, and interactive slicers.
+🛠️ Skills & Tools Used
+Power BI: Data visualization, interactive slicers, and UI design.
 
-Data Handling: Working with large datasets (10k+ rows).
+Data Formatting: Handled a dataset of 10,000+ records.
 
-Problem Solving: Turning raw numbers into easy-to-read charts.
+UI/UX Design: Implemented a high-contrast Dark Mode theme for a modern, executive feel.
 
-📁 How to Use This Project
-Customer_Behavior_Analysis.pbix: The Power BI file (requires Power BI Desktop to open).
+DAX: Used basic Data Analysis Expressions to calculate averages and totals.
 
-customer_data.csv: The raw data used for the charts.
+📁 Project Structure
+Customer_Behavior_Analysis.pbix — The main Power BI project file.
 
-Dashboard_Screenshot.png: A preview of the final design.
+customer_data.csv — The raw dataset used for analysis.
+
+Dashboard_Preview.png — A high-resolution screenshot of the final dashboard.
+
+💡 Learning Outcomes
+Through this project, I improved my ability to:
+
+Clean and prepare large datasets for visualization.
+
+Design dashboards that focus on user experience and readability.
+
+Turn raw data into actionable insights for business stakeholders.
