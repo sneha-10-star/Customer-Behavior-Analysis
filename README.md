@@ -1,37 +1,36 @@
-Customer Behavior Analysis (Power BI)
+Customer Behavior Analysis | Power BI Portfolio
 📌 Project Overview
-This is my second project as a Data Analytics student. I developed this interactive Dark Mode dashboard to analyze a dataset of 10,000 customers. The goal was to move beyond simple sales tracking and explore customer behavior patterns, such as how engagement time relates to spending.
+This project focuses on Behavioral Analytics for a retail dataset of 10,000+ customers. Unlike standard sales reports, this dashboard deep-dives into how customers interact with the platform, identifying correlations between session engagement, loyalty tiers, and revenue.
 
-📊 Key Business Insights
-Behavioral Mapping: I created a Scatter Plot to visualize the relationship between Session Time and Purchase Amount. This helps identify "high-intent" shoppers vs. "window shoppers."
+🎯 Key Business Questions Addressed:
+Does a longer Session Duration actually lead to a higher Order Value?
 
-Loyalty Segmentation: I analyzed the customer base across Membership Tiers (Standard, Silver, Gold, Platinum) to see which group drives the most value.
+Which Loyalty Tiers are most at risk of churning based on support tickets?
 
-Demographic Profiling: I visualized Age and Gender data to understand the primary audience for the brand.
+How do Demographics (Age/Gender) influence spending patterns?
 
-Revenue Trends: I tracked performance from 2024 to 2025, identifying key periods of growth and decline.
+📊 Dashboard Preview
+Note: The dashboard uses a custom Dark Mode UI designed for high-contrast data storytelling.
 
-🛠️ Skills & Tools Used
-Power BI: Data visualization, interactive slicers, and UI design.
+🛠️ Tech Stack & Skills
+Data Cleaning: Power Query (ETL process for 10k+ rows).
 
-Data Formatting: Handled a dataset of 10,000+ records.
+Data Modeling: Established relationships between demographics and transactional data.
 
-UI/UX Design: Implemented a high-contrast Dark Mode theme for a modern, executive feel.
+DAX Measures: Created custom metrics for Churn Risk, Average Order Value (AOV), and Customer Sentiment.
 
-DAX: Used basic Data Analysis Expressions to calculate averages and totals.
+UI/UX Design: Dark-themed interface with neon accents for professional readability.
 
-📁 Project Structure
-Customer_Behavior_Analysis.pbix — The main Power BI project file.
+📈 Key Insights & Findings
+The "Window Shopper" Profile: The Engagement vs. Spending Matrix (Scatter Plot) revealed a cluster of users with high session times but low spending, suggesting a need for better checkout conversion.
 
-customer_data.csv — The raw dataset used for analysis.
+Revenue Trend: Analysis showed a slight decline in revenue from 2024 to 2025, triggering a deeper look into Membership Level retention.
 
-Dashboard_Preview.png — A high-resolution screenshot of the final dashboard.
+Loyalty Impact: Platinum members maintain a 20% higher Satisfaction Score despite having a lower total count compared to Standard members.
 
-💡 Learning Outcomes
-Through this project, I improved my ability to:
+📂 Project Structure
+Customer_Behavior_Analysis.pbix: The final Power BI project file.
 
-Clean and prepare large datasets for visualization.
+customer_behaviour_dataset.csv: The raw data used for the analysis.
 
-Design dashboards that focus on user experience and readability.
-
-Turn raw data into actionable insights for business stakeholders.
+Screenshots/: High-resolution images of the dashboard.
