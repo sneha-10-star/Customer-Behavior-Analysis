@@ -1,36 +1,41 @@
-Customer Behavior Analysis | Power BI Portfolio
+📊 Customer Behavior Analysis | Power BI Portfolio
 📌 Project Overview
-This project focuses on Behavioral Analytics for a retail dataset of 10,000+ customers. Unlike standard sales reports, this dashboard deep-dives into how customers interact with the platform, identifying correlations between session engagement, loyalty tiers, and revenue.
 
-🎯 Key Business Questions Addressed:
-Does a longer Session Duration actually lead to a higher Order Value?
+This project explores customer behavioral analytics using a dataset of 10,000+ retail customers.
+The dashboard analyzes relationships between engagement, loyalty tiers, and spending patterns to generate actionable business insights.
 
-Which Loyalty Tiers are most at risk of churning based on support tickets?
+🎯 Key Business Questions
 
-How do Demographics (Age/Gender) influence spending patterns?
+Does longer Session Duration increase Average Order Value (AOV)?
 
-📊 Dashboard Preview
-Note: The dashboard uses a custom Dark Mode UI designed for high-contrast data storytelling.
+Which Membership Levels show higher churn risk?
+
+How do Age & Gender influence spending behavior?
 
 🛠️ Tech Stack & Skills
-Data Cleaning: Power Query (ETL process for 10k+ rows).
 
-Data Modeling: Established relationships between demographics and transactional data.
+Power Query → Data cleaning & transformation
 
-DAX Measures: Created custom metrics for Churn Risk, Average Order Value (AOV), and Customer Sentiment.
+Data Modeling → Relationship building
 
-UI/UX Design: Dark-themed interface with neon accents for professional readability.
+DAX Measures → AOV, Churn Risk, Satisfaction Metrics
 
-📈 Key Insights & Findings
-The "Window Shopper" Profile: The Engagement vs. Spending Matrix (Scatter Plot) revealed a cluster of users with high session times but low spending, suggesting a need for better checkout conversion.
+Visualization → Scatter plots, trends, segmentation
 
-Revenue Trend: Analysis showed a slight decline in revenue from 2024 to 2025, triggering a deeper look into Membership Level retention.
+UI/UX → Custom Dark Mode dashboard
 
-Loyalty Impact: Platinum members maintain a 20% higher Satisfaction Score despite having a lower total count compared to Standard members.
+📈 Key Insights
 
-📂 Project Structure
-Customer_Behavior_Analysis.pbix: The final Power BI project file.
+Identified “Window Shoppers” (high engagement, low spending)
 
-customer_behaviour_dataset.csv: The raw data used for the analysis.
+Observed slight revenue decline (2024 → 2025)
 
-Screenshots/: High-resolution images of the dashboard.
+Platinum members show higher satisfaction scores
+
+📂 Project Files
+
+Customer_Behavior_Analysis.pbix → Final dashboard
+
+customer_behaviour_dataset.csv → Dataset
+
+Screenshots/ → Dashboard previews
