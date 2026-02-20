@@ -1,41 +1,71 @@
-📊 Customer Behavior Analysis | Power BI Portfolio
-📌 Project Overview
+# 📊 Customer Behavior Analysis | Power BI Portfolio
 
-This project explores customer behavioral analytics using a dataset of 10,000+ retail customers.
-The dashboard analyzes relationships between engagement, loyalty tiers, and spending patterns to generate actionable business insights.
+---
 
-🎯 Key Business Questions
+## 📌 Project Overview
+This project focuses on **Customer Behavioral Analytics** using a retail dataset of **10,000+ customers**.
 
-Does longer Session Duration increase Average Order Value (AOV)?
+Unlike traditional sales dashboards, this analysis explores how customers interact with the platform by examining:
 
-Which Membership Levels show higher churn risk?
+- Customer engagement metrics  
+- Loyalty / membership tiers  
+- Spending behavior  
 
-How do Age & Gender influence spending behavior?
+The objective is to transform raw customer data into **actionable business insights**.
 
-🛠️ Tech Stack & Skills
+---
 
-Power Query → Data cleaning & transformation
+## 🎯 Business Questions Addressed
 
-Data Modeling → Relationship building
+- Does longer **Session Duration** lead to higher **Average Order Value (AOV)**?  
+- Which **Membership Levels** show higher **churn risk**?  
+- How do **demographics (Age / Gender)** influence purchasing patterns?  
 
-DAX Measures → AOV, Churn Risk, Satisfaction Metrics
+---
 
-Visualization → Scatter plots, trends, segmentation
+## 🛠️ Tools & Skills Used
 
-UI/UX → Custom Dark Mode dashboard
+**✔ Data Cleaning & Transformation**  
+- Power Query (ETL for 10k+ rows)
 
-📈 Key Insights
+**✔ Data Modeling**  
+- Relationship building across datasets
 
-Identified “Window Shoppers” (high engagement, low spending)
+**✔ DAX Measures**  
+- Average Order Value (AOV)  
+- Churn Risk Indicators  
+- Satisfaction Metrics  
 
-Observed slight revenue decline (2024 → 2025)
+**✔ Data Visualization**  
+- Scatter Plot (Engagement vs Spending)  
+- Trend Analysis  
+- Segmentation Views  
 
-Platinum members show higher satisfaction scores
+**✔ UI / UX Design**  
+- Custom Dark Mode dashboard  
+- High-contrast visual storytelling  
 
-📂 Project Files
+---
 
-Customer_Behavior_Analysis.pbix → Final dashboard
+## 📈 Key Insights
 
-customer_behaviour_dataset.csv → Dataset
+- Identified a **“Window Shopper” segment** (high engagement, low spending)  
+- Observed a slight **revenue decline (2024 → 2025)**  
+- Found that **Platinum members** show higher satisfaction scores  
 
-Screenshots/ → Dashboard previews
+---
+
+## 📂 Project Files
+
+- `Customer_Behavior_Analysis.pbix` → Final Power BI dashboard  
+- `customer_behaviour_dataset.csv` → Dataset  
+- `Screenshots/` → Dashboard previews  
+
+---
+
+## 👩‍💻 Author
+
+**Sneha Thakur**  
+Aspiring Data Analyst | Power BI Portfolio
+
+---
